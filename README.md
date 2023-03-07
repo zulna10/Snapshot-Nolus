@@ -11,6 +11,7 @@
 * rpc: [https://rpc.nolus.zulnaaa.com](https://rpc.nolus.zulnaaa.com)
 * grpc: [https://grpc.nolus.zulnaaa.com](https://grpc.nolus.zulnaaa.com)
 * grpc-web: [https://grpc-web.nolus.zulnaaa.com](https://grpc-web.nolus.zulnaaa.com)
+* Snapshot : https://snapshot.nolus.zulnaaa.com/nolus/
 
 # Snapshot
 
