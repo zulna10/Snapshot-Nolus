@@ -9,17 +9,13 @@
 
 * api: [https://api.nolus.zulnaaa.com](https://api.nolus.zulnaaa.com)
 * rpc: [https://rpc.nolus.zulnaaa.com](https://rpc.nolus.zulnaaa.com)
-* Snapshot : https://snapshot.nolus.zulnaaa.com/nolus/
+* Snapshot : [https://snapshot.nolus.zulnaaa.com](https://snapshot.nolus.zulnaaa.com)
 
 # Snapshot
 
 ## Instructions
 
-### First, create a session
 
-```bash
-screen -R install
-```
 
 ### Stop the service and reset the data
 
@@ -41,12 +37,4 @@ mv $HOME/.nolus/priv_validator_state.json.backup $HOME/.nolus/data/priv_validato
 ```bash
 sudo systemctl start nolusd && sudo journalctl -u nolusd -f --no-hostname -o cat
 ```
-### Log out and log in session
 
-```bash
-to get out of
-ctrl + a + d
-
-to enter the session
-screen -r name_session
-```
