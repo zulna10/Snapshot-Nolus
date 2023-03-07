@@ -33,7 +33,7 @@ rm -rf $HOME/.nolus/data
 ### Download latest snapshot
 
 ```bash
-curl -L http://snapshot,nolus.zulnaaa.com/nolus/nolus-snapshot.tar.lz4 | tar -Ilz4 -xf - -C $HOME/.nolus
+curl -L http://snapshot.nolus.zulnaaa.com/nolus/nolus-snapshot.tar.lz4 | tar -Ilz4 -xf - -C $HOME/.nolus
 mv $HOME/.nolus/priv_validator_state.json.backup $HOME/.nolus/data/priv_validator_state.json
 ```
 
